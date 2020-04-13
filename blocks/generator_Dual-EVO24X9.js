@@ -17,10 +17,11 @@ Blockly.JavaScript['dual_evo24x9_motor'] = function(block) {
 	}
 
 	var code = '';
-	code += `#EXTINC#include <DHT12.h>#END\n`;
+	code += `#EXTINC#include <Dual-EVO24X9.h>#END\n`;
 	code += `#EXTINC#include <Wire.h>#END\n`;
 	code += `#VARIABLE DualEVO24X9 driver(${dropdown_addr}, &${WIRE_OBJ});#END\n`;
 	code += `#SETUP ${WIRE_OBJ}.begin(${SDA_PIN}, ${SCL_PIN}); #END`;
+	code += `#SETUP driver.setup(); #END`;
 	code += `driver.motor(${dropdown_ch}, ${dropdown_dir}, ${value_speed});`;
 
 	return code;

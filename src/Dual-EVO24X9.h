@@ -6,7 +6,7 @@
 
 class DualEVO24X9 {
 	private:
-		uint8_t _addr;
+		int _addr;
 		TwoWire *_wire;
 
 	public:
