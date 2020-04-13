@@ -1,0 +1,16 @@
+{
+  "name" : "Dual-EVO24X9",
+  "title": "Dual-EVO24X9",
+  "category" : "Motor Driver",
+  "keywords": "Motor Driver, Dual-EVO24X9",
+  "description": "Dual-EVO24X9 30A 2 Channel motor driver",
+  "homepage": "https://github.com/maxpromer/Dual-EVO24X9_Arduino",
+  "license": "MIT",
+  "git": "https://github.com/maxpromer/Dual-EVO24X9_Arduino",
+  "author": "INEX",
+  "url": "https://www.inex.co.th/",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-avr","arduino-esp32"],
+  "image" : "/static/display.jpg"
+}
